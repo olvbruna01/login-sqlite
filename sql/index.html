@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Login SQLite</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Login / Registro</h1>
+
+  <div class="card" id="register">
+    <h2>Registrar</h2>
+    <input id="regUser" placeholder="Usuário">
+    <input id="regPass" type="password" placeholder="Senha">
+    <input id="regPhone" placeholder="Telefone">
+    <button id="btnRegister">Registrar</button>
+  </div>
+
+  <div class="card" id="login">
+    <h2>Login</h2>
+    <input id="logUser" placeholder="Usuário">
+    <input id="logPass" type="password" placeholder="Senha">
+    <button id="btnLogin">Entrar</button>
+  </div>
+
+  <div class="actions">
+    <button id="btnDownload">Baixar Banco SQLite</button>
+    <button id="btnReset">Resetar Banco</button>
+  </div>
+
+  <div id="msg"></div>
+</div>
+
+</body>
+</html>
